@@ -2,7 +2,7 @@
 https://arestech.io
 
 ## Develop locally
-
+* run `npm install` 
 * run `npm run develop` will open up localhost:8000 with hot reloading
 
 ## Build production version
