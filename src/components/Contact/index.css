@@ -1,0 +1,70 @@
+.contact-section {
+    background-image: linear-gradient(80deg, #cf38da, #7400a4);
+    -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.social-media-icon {
+    font-size: 35px;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.social-media-icon:hover {
+    color: #fff;
+}
+
+.contact-shape {
+    position: absolute;
+    display: table;
+    z-index: -1;
+}
+
+.contact-shape-1 {
+    right: 0;
+    top: 0;
+}
+
+.contact-shape-2 {
+    left: 0;
+    top: 8%;
+}
+
+.contact-shape-3 {
+    left: 10%;
+    bottom: -10%;
+}
+
+.contact-shape-4 {
+    right: 0;
+    bottom: -40%;
+}
+
+@media (max-width: 576px) {
+    .contact-shape {
+        width: 50% !important;
+    }
+
+    .contact-shape-3 {
+        left: 10% !important;
+        bottom: 0 !important;
+    }
+
+    .contact-shape-4 {
+        right: 0 !important;
+        bottom: 10% !important;
+    }
+}

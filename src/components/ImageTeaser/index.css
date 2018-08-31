@@ -1,0 +1,51 @@
+.image-teaser.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-teaser .image-container {
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 180px;
+    background-blend-mode: multiply;
+    background-size: contain;
+}
+.image-teaser .card-title {
+    color: #ce38da;
+    font-size: 24px;
+}
+
+.image-teaser .card-subtitle {
+    color: #9b9b9b;
+}
+@media (max-width:1200px) and (min-width:992px){
+    .image-teaser .image-container {
+        width: 100%;
+        height: 180px;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-size: cover;
+    }
+}
+@media (max-width:991px) and (min-width:768px){
+    .image-teaser .image-container {
+        width: 100%;
+        height: 180px;
+        background-blend-mode: multiply;
+        background-size: contain;
+        background-size: 100% 100%;
+    }
+    .card-body-padlr-0 {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+}
+@media (max-width:768px){
+    .image-teaser .image-container {
+        width: 100%;
+        height: 180px;
+        background-blend-mode: multiply;
+        background-size: 100% 100%;
+    }
+}

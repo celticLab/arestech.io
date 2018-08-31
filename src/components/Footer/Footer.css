@@ -1,0 +1,43 @@
+.footer {
+    justify-content: center;
+    align-content: center;
+    padding: 10px 5px 5px;
+    background-color: #7400a4;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.notice-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+@media (max-width: 640px - 1px) {
+    .notice-container {
+        justify-content: space-around;
+    }
+}
+
+.notice-container h4 {
+    text-align: center;
+    margin: 0;
+}
+
+.newsletter-subscribe {
+    background-color: #fff;
+    color: #7400a4;
+    font-weight: bold;
+}
+
+.newsletter-subscribe:hover {
+    text-decoration: none;
+}
